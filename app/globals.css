@@ -2,26 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+*{
+  font-family: "Gil-Roy";
+ 
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.relando{
+  
+    background-image: url("https://media.istockphoto.com/id/1203668665/photo/overlooking-the-valley.jpg?s=2048x2048&w=is&k=20&c=6KQHlkAiassRHG8_TihpK2_QdsIlFfA279xyVc9STZg=");
+    background-size: cover;
+    background-position: center;
+    height: 80vh; /* 4/5 of the viewport height */
+    width: 66.67%; /* 2/3 of the parent width */
+    color: white;
+    padding: 1.5rem; /* 6 units of padding */
+    border-radius: 0.5rem; /* rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-lg */
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s; /* Transition for hover effects */
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  
+  .relando-bg:hover {
+    transform: translateY(-0.25rem); /* hover:-translate-y-1 */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* hover:shadow-xl */
   }
-}
+  
+
