@@ -42,11 +42,11 @@ const Styling = () => {
           <p>No Data Found</p>
         ):(
           <div>
-        <h1 className='mt-10 text-black text-8xl'>{search}</h1>
+        <h1 className='mt-10 text-black text-6xl'>{search}</h1>
         
         <h5 className='pt-4 text-4xl'>{city.temp}°C</h5>
         <h2 className='pt-4'>Max : {city.temp_max}°C || Min {city.temp_min}°C </h2>
-        <h5 className='text-2xl pt-10 mr-96'>Humidity : {city.humidity}</h5>
+        <h5 className='text-2xl pt-10 mr-96'>Humidity:{city.humidity}</h5>
         </div>
       )}
     </div>
