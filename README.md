@@ -2,12 +2,10 @@
 
 Minimal Next.js weather app with live condition-based backgrounds.
 
+Single page Weather Application using Next.js
+Getting friendly with Next.js
 
 
-## Build & deploy
-- Build: `npm run build`
-- Start production build locally: `npm start`
-- Deploy by pushing to GitHub and hosting on Vercel (recommended).
 
 ## Live site
 - Hosted at: https://weatherapplications-rho.vercel.app/
