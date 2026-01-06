@@ -13,4 +13,4 @@ Minimal Next.js weather app with live condition-based backgrounds.
 - Deploy by pushing to GitHub and hosting on Vercel (recommended).
 
 ## Live site
-- Hosted at: <your-live-link-here>
+- Hosted at: https://rishab465.github.io/weatherapplications/
