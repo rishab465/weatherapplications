@@ -1,31 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-*{
-  font-family: "Gil-Roy";
- 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.relando{
-  
-    background-image: url("https://media.istockphoto.com/id/1203668665/photo/overlooking-the-valley.jpg?s=2048x2048&w=is&k=20&c=6KQHlkAiassRHG8_TihpK2_QdsIlFfA279xyVc9STZg=");
-    background-size: cover;
-    background-position: center;
-    height: 80vh; /* 4/5 of the viewport height */
-    width: 66.67%; /* 2/3 of the parent width */
-    color: white;
-    padding: 1.5rem; /* 6 units of padding */
-    border-radius: 0.5rem; /* rounded-lg */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-lg */
-    text-align: center;
-    transition: transform 0.2s, box-shadow 0.2s; /* Transition for hover effects */
-  }
-  
-  .relando-bg:hover {
-    transform: translateY(-0.25rem); /* hover:-translate-y-1 */
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* hover:shadow-xl */
-  }
+html, body {
+  width: 100%;
+  height: 100%;
+}
   
 
