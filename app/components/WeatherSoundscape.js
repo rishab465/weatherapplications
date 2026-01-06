@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useRef } from 'react';
 import { RiVolume2Line, RiVolumeMuteLine } from "@remixicon/react";
 
